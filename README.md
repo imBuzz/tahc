@@ -5,7 +5,7 @@ It will be full OPEN-SOURCE so you can edit it or help me to main through pull r
 
 MIT License
 
-Copyright (c) 2023 Alessandro
+Copyright (c) 2024 Samuele
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

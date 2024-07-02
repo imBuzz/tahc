@@ -1,6 +1,17 @@
-Hey! 
-This is Tahc a brand new Chat Filter for all Minecraft Server and Proxy Platform!
-It will be full OPEN-SOURCE so you can edit it or help me to main through pull requests
+Hey! I'm Samuele aka Buzz and i'm here to show you another of my creations! 
+
+### WHAT IS THIS PLUGIN?
+This is **TAHC** a brand new *Chat Filter* for all Minecraft Server and Proxy Platform!
+It will be full **OPEN-SOURCE** so you can edit it or help me to maintain it through pull requests ;)
+
+### HOW TO SETUP?
+1) Download the jar from releases or any spigot/built-by-bit pages
+2) Put it in your plugins folder, you can put the same jar in Velocity's, Bungee's or Spigot's folder, it will work everywhere
+3) Startup the server and allow tahc to generate his folder
+4) You are done! - you can now enjoy your protected and filtered chat
+
+### COMMANDS
+* /tahc reload -> it will reload the plugin | PERMISSION: tahc.reload
 
 --------------------------------------------------------------------------------------------------------
 MIT License

@@ -2,7 +2,7 @@ Hey!
 This is Tahc a brand new Chat Filter for all Minecraft Server and Proxy Platform!
 It will be full OPEN-SOURCE so you can edit it or help me to main through pull requests
 
-
+--------------------------------------------------------------------------------------------------------
 MIT License
 
 Copyright (c) 2024 Samuele

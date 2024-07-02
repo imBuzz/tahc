@@ -1,0 +1,6 @@
+name: tahc
+version: '${version}'
+main: it.buzz.tahc.bootstraps.bungee.TahcBungeeBootstrap
+api-version: '1.20'
+authors:
+  - Buzz

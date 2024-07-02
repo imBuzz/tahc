@@ -1,0 +1,57 @@
+#Here you can find some bad italian words to put under "bad-words" path in your config.yml
+#
+bad-words:
+  # All of these words are CASE_INSENSITIVE
+  single:
+    Cazzo: true
+    Porco: true
+    Troia: true
+    Bastardo: true
+    Puttana: true
+    Coglione: true
+    Sfigato: true
+    Negro: true
+    Terrone: true
+    Frocio: true
+    Zingaro: true
+    Ebrea: true
+    Sborra: true
+    Masturbazione: true
+    Stupido: true
+    Imbecille: true
+    Deficiente: true
+    Ritardato: true
+    Idiota: true
+    Scopare: true
+    Palle: true
+    Fica: true
+    Cornuto: true
+    Sborrare: true
+    Grasso: true
+    Magro: true
+    Malato: true
+    Handicappato: true
+    Gay: true
+    Trans: true
+    Lesbica: true
+    Stronzo: true
+    Vaffanculo: true
+    Razzista: true
+    Fascista: true
+    Pompino: true
+    Deforme: true
+    Lesbicona: true
+    Frociaro: true
+  # All of these words are CASE_INSENSITIVE
+  multi:
+    Vai a morire: true
+    Sei uno schifo: true
+    Sei uno stupido: true
+    Porco Dio: true
+    Porca Madonna: true
+    Madonna puttana: true
+    Ti ammazzo: true
+    Vai a suicidarti: true
+    Ti spacco la faccia: true
+    Sei un fallito: true
+    Transgender di merda: true

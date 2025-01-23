@@ -5,7 +5,7 @@ This is **TAHC** a brand new *Chat Filter* for all Minecraft Server and Proxy Pl
 It will be full **OPEN-SOURCE** so you can edit it or help me to maintain it through pull requests ;)
 
 ### HOW TO SETUP?
-1) Donwload at least Java 17
+1) Donwload at least Java 21
 2) Download the jar from releases or any spigot/built-by-bit pages
 3) Put it in your plugins folder, you can put the same jar in Velocity's, Bungee's or Spigot's folder, it will work everywhere
 4) Startup the server and allow tahc to generate his folder

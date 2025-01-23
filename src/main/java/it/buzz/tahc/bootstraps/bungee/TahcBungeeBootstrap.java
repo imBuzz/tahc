@@ -1,16 +1,13 @@
 package it.buzz.tahc.bootstraps.bungee;
 
-import it.buzz.tahc.bootstraps.bungee.commands.BungeeTahcCommands;
-import it.buzz.tahc.bootstraps.spigot.commands.SpigotTahcCommands;
-import it.buzz.tahc.bootstraps.spigot.protocol.ProtocolVersion;
-import it.buzz.tahc.core.check.CheckResult;
-import it.buzz.tahc.bootstraps.TahcScheduler;
 import it.buzz.tahc.bootstraps.TahcBootstrap;
+import it.buzz.tahc.bootstraps.TahcScheduler;
+import it.buzz.tahc.bootstraps.bungee.commands.BungeeTahcCommands;
 import it.buzz.tahc.bootstraps.bungee.scheduler.BungeeTahcScheduler;
 import it.buzz.tahc.core.Tahc;
+import it.buzz.tahc.core.check.CheckResult;
 import it.buzz.tahc.core.commands.exception.CustomExceptionAdapter;
 import it.buzz.tahc.core.configuration.PluginConfiguration;
-import it.buzz.tahc.core.util.Pair;
 import lombok.Getter;
 import net.kyori.adventure.audience.Audience;
 import net.kyori.adventure.platform.bungeecord.BungeeAudiences;
@@ -20,8 +17,6 @@ import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.event.EventHandler;
 import org.bstats.bungeecord.Metrics;
-import org.bukkit.entity.Player;
-import revxrsal.commands.bukkit.BukkitCommandHandler;
 import revxrsal.commands.bungee.BungeeCommandHandler;
 
 import java.io.File;

@@ -1,15 +1,13 @@
 package it.buzz.tahc.bootstraps.spigot;
 
-import it.buzz.tahc.bootstraps.spigot.commands.SpigotTahcCommands;
-import it.buzz.tahc.bootstraps.spigot.protocol.ProtocolVersion;
-import it.buzz.tahc.core.check.CheckResult;
-import it.buzz.tahc.bootstraps.TahcScheduler;
 import it.buzz.tahc.bootstraps.TahcBootstrap;
+import it.buzz.tahc.bootstraps.TahcScheduler;
+import it.buzz.tahc.bootstraps.spigot.commands.SpigotTahcCommands;
 import it.buzz.tahc.bootstraps.spigot.scheduler.SpigotTahcScheduler;
 import it.buzz.tahc.core.Tahc;
+import it.buzz.tahc.core.check.CheckResult;
 import it.buzz.tahc.core.commands.exception.CustomExceptionAdapter;
 import it.buzz.tahc.core.configuration.PluginConfiguration;
-import it.buzz.tahc.core.util.Pair;
 import lombok.Getter;
 import net.kyori.adventure.audience.Audience;
 import net.kyori.adventure.platform.bukkit.BukkitAudiences;
@@ -22,7 +20,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import revxrsal.commands.bukkit.BukkitCommandHandler;
-import revxrsal.commands.exception.CommandErrorException;
 
 import java.io.File;
 import java.util.Collection;
@@ -91,8 +88,7 @@ public class TahcSpigotBootstrap extends JavaPlugin implements TahcBootstrap, Li
         handler.setExceptionHandler(new CustomExceptionAdapter(tahc));
 
         handler.register(new SpigotTahcCommands(this));
-        if (ProtocolVersion.getCurrentVersion().isNewer(ProtocolVersion.v1_13_R2))
-            handler.registerBrigadier();
+        handler.registerBrigadier();
     }
 
     @EventHandler(priority = EventPriority.LOWEST)
